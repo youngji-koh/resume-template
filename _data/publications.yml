@@ -1,15 +1,17 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
+bold:
+- youngji koh
 
 # Conference
-- project: Conferene
-  publication: Exploring Context-Aware Mental Health Self-Tracking Using Multimodal Smart Speakers in Home Environments
-  # duration: 2012 &mdash; Present
+- type: Conferene
+  title: Exploring Context-Aware Mental Health Self-Tracking Using Multimodal Smart Speakers in Home Environments
   # url: "#"
-  authors: youngji koh
+  authors: "Jieun Lim*, Youngji Koh*, Auk Kim, Uichin Lee (*: equal contribution)"
   publisher: CHI
 
-- publication: Exploring Context-Aware Mental Health Self-Tracking Using Multimodal Smart Speakers in Home Environments
+- title: Exploring Context-Aware Mental Health Self-Tracking Using Multimodal Smart Speakers in Home Environments
+  # url: "#"
   authors: youngji koh
   publisher: CHI
   
