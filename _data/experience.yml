@@ -1,9 +1,10 @@
 # Jobs
 # Undergraduate Research Intern
-- company: "Human-Computer Interaction Laboratory, Ewha Womans University (Advisor: Dr. Uran Oh)"
+- company: "HCI Lab, Ewha Womans University (Advisor: Dr. Uran Oh)"
   position: Undergraduate Research Intern
-  duration: May, 2018 &mdash; May 2019
-  summary: 
-  - Build a touchscreen-based mobile application as a prototype focusing on 2D paintings which plays object-level 
-  verbal descriptions upon users’ touch to enable people with visual impairments to explore and understand various artworks independently.
-  - Design a mobile application for conflict management between lovers on mobile messenger
+  duration: May 2018 &mdash; May 2019
+  summary: <ul class="resume-item-list">
+  <li>Build a touchscreen-based mobile application as a prototype focusing on 2D paintings which plays object-level 
+  verbal descriptions upon users’ touch to enable people with visual impairments to explore and understand various artworks independentl</li>
+  <li>Design a mobile application for conflict management between lovers on mobile messenger</li></ul>
+
