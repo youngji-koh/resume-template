@@ -51,9 +51,9 @@ resume_section_interests:       true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
+  resume_dribbble_url:          "mailto:youngji@kaist.ac.kr"
   resume_github_url:            "https://github.com/youngji-koh"
   # resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "mailto:youngji@kaist.ac.kr"
   # resume_facebook_url:          "insert Facebook URL here"
   # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
   # resume_instagram_url:         "insert your Instagram URL here"
