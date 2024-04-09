@@ -6,11 +6,18 @@
   title: Exploring Context-Aware Mental Health Self-Tracking Using Multimodal Smart Speakers in Home Environments
   authors: "Jieun Lim*, Youngji Koh*, Auk Kim, Uichin Lee (*: equal contribution)"
   publisher: ACM Conference on Human Factors in Computing Systems (CHI 2024)
-  url: "#"
- 
+  pdf: "#"
+  slides: "#"
+
 - title: "Interrupting for Microlearning: Understanding Perceptions and Interruptibility of Proactive Conversational Microlearning Services"
   authors: Minyeong Kim, Jiwook Lee, <strong>Youngji Koh</strong>, Chanhee Lee, Uichin Lee, Auk Kim
   publisher: ACM Conference on Human Factors in Computing Systems (CHI 2024)
+
+- type: Journal
+  title: Exploring Context-Aware Mental Health Self-Tracking Using Multimodal Smart Speakers in Home Environments
+  authors: "Jieun Lim*, Youngji Koh*, Auk Kim, Uichin Lee (*: equal contribution)"
+  publisher: ACM Conference on Human Factors in Computing Systems (CHI 2024)
+  pdf: "#"
 
 # Springfield Community Outreach Group
 # - project: Springfield Community Outreach Group

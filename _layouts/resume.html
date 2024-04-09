@@ -109,7 +109,8 @@
           <h4 class="resume-item-title" itemprop="name">{{ publication.title }}</h4>
           <h5 class="resume-item-details" itemprop="description">{{ publication.authors }}</h5>
           <p class="resume-item-copy">{{ publication.publisher }}</p>
-          <p class="resume-item-copy" itemprop="files">{% if publication.url %}<a href="{{ publication.url }}" itemprop="url"> [pdf] </a>{% else %} {% endif %}</p>
+          <p class="resume-item-copy" itemprop="files">{% if publication.url %}<a href="{{ publication.pdf }}" itemprop="url"> [PDF] </a>{% else %} {% endif %}
+            {% if publication.slides %}<a href="{{ publication.slides }}" itemprop="url"> [Slides] </a>{% else %} {% endif %}</p>
          
         </div>
         {% endfor %}
