@@ -22,8 +22,9 @@
 
   .avatar {
     // width: 95px;
+    // max-width: 100%;
     width: 150px;
-    max-width: 120%;
+    max-width: 150%;
     overflow: hidden;
     @include border-radius(100px);
     margin: 0 auto;
