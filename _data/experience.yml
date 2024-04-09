@@ -1,14 +1,10 @@
-# Jobs
-# # VP of Global Communications
-# - company: Springfield International Human Rights Outreach
-#   position: VP of Global Communications
-#   duration: Oct, 2013 &mdash; Present
-#   summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
-
 # Undergraduate Research Intern
 - company: "HCI Lab, Ewha Womans University (Advisor: Dr. Uran Oh)"
   position: Undergraduate Research Intern
   duration: May 2018 &mdash; May 2019
-  summary: <ul class="resume-item-list"><li>Build a touchscreen-based mobile application as a prototype focusing on 2D paintings which plays object-level verbal descriptions 
-    upon user''s touch to enable people with visual impairments to explore and understand various artworks independentl</li>
-    <li>Design a mobile application for conflict management between lovers on mobile messenger</li></ul>
+  summary: Build a touchscreen-based mobile application as a prototype focusing on 2D paintings which plays object-level verbal descriptions 
+  upon user''s touch to enable people with visual impairments to explore and understand various artworks independentl
+
+  # summary: <ul class="resume-item-list"><li>Build a touchscreen-based mobile application as a prototype focusing on 2D paintings which plays object-level verbal descriptions 
+  #   upon user''s touch to enable people with visual impairments to explore and understand various artworks independentl</li>
+  #   <li>Design a mobile application for conflict management between lovers on mobile messenger</li></ul>
