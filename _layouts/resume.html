@@ -138,6 +138,25 @@
       <!-- end Teaching -->
       {% endif %}
 
+      {% if site.resume_section_service %}
+      <!-- begin Service -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Community Service</h2>
+        </header>
+        {% for service in site.data.service %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ service.name }}</h4>
+          <p class="resume-item-copy">{{ service.role }} &bull; {{ service.year }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Service -->
+      {% endif %}
+
+
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
       <section class="content-section">
