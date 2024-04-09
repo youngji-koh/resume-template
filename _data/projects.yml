@@ -1,16 +1,23 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
+# Conference
+- project: Conferene
+  publication: Founder & Primary Developer
   # duration: 2012 &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  authors: youngji koh
 
-# Springfield Community Outreach Group
+# Journal
 - project: Springfield Community Outreach Group
   role: Co-Founder & Organizer
+  # duration: 2007 &mdash; Present
+  # url: "#"
+  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+# Poster & Workshop
+- project: Springfield Community Outreach Group
+  role: Supporting Object-level Exploration of Artworks by Touch for People with Visual Impairments
   # duration: 2007 &mdash; Present
   # url: "#"
   description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
