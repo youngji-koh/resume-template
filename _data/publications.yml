@@ -4,30 +4,31 @@
 # jazznotes.io
 - type: Conference
   title: Exploring Context-Aware Mental Health Self-Tracking Using Multimodal Smart Speakers in Home Environments
-  authors: "Jieun Lim*, Youngji Koh*, Auk Kim, Uichin Lee (*: equal contribution)"
+  authors: "Jieun Lim*, <strong>Youngji Koh*</strong>, Auk Kim, Uichin Lee (*: equal contribution)"
   publisher: ACM Conference on Human Factors in Computing Systems (CHI 2024)
   pdf: "#"
-  slides: "#"
+  video: "#"
 
 - title: "Interrupting for Microlearning: Understanding Perceptions and Interruptibility of Proactive Conversational Microlearning Services"
   authors: Minyeong Kim, Jiwook Lee, <strong>Youngji Koh</strong>, Chanhee Lee, Uichin Lee, Auk Kim
   publisher: ACM Conference on Human Factors in Computing Systems (CHI 2024)
+  pdf: "#"
 
 - type: Journal
-  title:  Deep Learning-based Bug Report Summarization Using Sentence Significance Factor
-  authors: Youngji Koh, Sungwon Kang, Seonah Lee
+  title: Deep Learning-based Bug Report Summarization Using Sentence Significance Factor
+  authors: <strong>Youngji Koh</strong>, Sungwon Kang, Seonah Lee
   publisher: Applied Sciences 2022
-  # pdf: "#"
+  pdf: "#"
 
 - type: Poster & Workshop
-  title:  Deep Learning-based Bug Report Summarization Using Sentence Significance Factor
-  authors: Youngji Koh, Sungwon Kang, Seonah Lee
-  publisher: Applied Sciences 2022
-# pdf: "#"
+  title: "Data Visualization for Mental Health Monitoring in Smart Home Environment: A Case Study"
+  authors: <strong>Youngji Koh</strong>, Chanhee Lee, Yunhee Ku, Uichin Lee
+  publisher: IEEE VIS 2023 Workshop on Visual Analytics in Healthcare
 
-# Springfield Community Outreach Group
-# - project: Springfield Community Outreach Group
-#   role: Co-Founder & Organizer
-#   duration: 2007 &mdash; Present
-#   # url: "#"
-#   description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- title: " LV-Linker: Supporting Fine-grained User Interaction Analyses by Linking Smartphone Log and Recorded Video Data"
+  authors: Hansoo Lee, Sangwook Lee, <strong>Youngji Koh</strong>, Uichin Lee
+  publisher: ACM Symposium on User Interface Software and Technology (UIST 2022)
+
+- title: Supporting Object-level Exploration of Artworks by Touch for People with Visual Impairments
+  authors: Nahyun Kwon, <strong>Youngji Koh</strong>, Uran Oh
+  publisher: ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2019)

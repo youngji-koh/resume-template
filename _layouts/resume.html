@@ -110,7 +110,7 @@
           <p class="resume-item-copy">{{ publication.authors }}</p>
           <p class="resume-item-copy">{{ publication.publisher }}</p>
           <p class="resume-item-copy" itemprop="files">{% if publication.pdf %}<a href="{{ publication.pdf }}" itemprop="url"> [PDF] </a>{% else %} {% endif %}
-            {% if publication.slides %}<a href="{{ publication.slides }}" itemprop="url"> [Slides] </a>{% else %} {% endif %}</p>
+            {% if publication.video %}<a href="{{ publication.video }}" itemprop="url"> [Video] </a>{% else %} {% endif %}</p>
          
         </div>
         {% endfor %}
