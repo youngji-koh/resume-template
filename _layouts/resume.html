@@ -95,24 +95,24 @@
       <!-- end Experience -->
       {% endif %}
 
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
       <section class="content-section">
         <header class="section-header">
           <h2>Publications</h2>
         </header>
 
-        {% for publication in site.data.projects %}
+        {% for publication in site.data.publications %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if publications.url %}<a href="{{ projects.url }}" itemprop="url">{{ projects.title }}</a>{% else %}{{ projects.title }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ projects.authors }}</h4>
-          <h5 class="resume-item-details" itemprop="description">{{ projects.publisher }}</h5>
+          <h3 class="resume-item-title" itemprop="name">{% if publications.url %}<a href="{{ publications.url }}" itemprop="url">{{ publications.project }}</a>{% else %}{{ publications.project }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ publications.role }}</h4>
+          <h5 class="resume-item-details" itemprop="description">{{ publications.description }}</h5>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Projects -->
+      <!-- end Publications -->
       {% endif %}
 
       {% if site.resume_section_skills %}
