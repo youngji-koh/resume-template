@@ -56,19 +56,19 @@
           <h2>Research Interests</h2>
         </header>
 
-        <!-- {% for interest in site.data.interests %}
+        {% for interest in site.data.interests %}
         <div class="resume-item">
-          <p class="resume-item-copy">{{ intreset.description }}</p>
+          <p class="resume-item-copy">{{ interest.description }}</p>
         </div>
-        {% endfor %} -->
+        {% endfor %}
 
-        <div class="resume-item">
+        <!-- <div class="resume-item">
           <ul class="resume-item-list">
             {% for interest in site.data.interests %}
             <li>{{ interest.description }}</li>
             {% endfor %}
           </ul>
-        </div>
+        </div> -->
 
       </section>
       <!-- end Interests -->
@@ -93,8 +93,6 @@
               <li>{{ award.award }}</li>
               {% endfor %}
             </ul>
-
-
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
         {% endfor %}
@@ -136,7 +134,7 @@
           <h4 class="resume-item-details" itemprop="name">{{ publication.title }}</h4>
           <p class="resume-item-copy">{{ publication.authors }}</p>
           <p class="resume-item-copy">{{ publication.publisher }}</p>
-          <p class="resume-item-copy" itemprop="files">{% if publication.pdf %}<a href="{{ publication.pdf }}" itemprop="url"> [PDF] </a>{% else %} {% endif %}
+          <p class="resume-item-copy">{% if publication.pdf %}<a href="{{ publication.pdf }}" itemprop="url"> [PDF] </a>{% else %} {% endif %}
             {% if publication.video %}<a href="{{ publication.video }}" itemprop="url"> [Video] </a>{% else %} {% endif %}</p>
          
         </div>
