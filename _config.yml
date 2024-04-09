@@ -24,8 +24,8 @@ resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334
 display_header_contact_info:    "false"
 
 resume_header_intro: "<p> Hello, World! I am Youngji Koh, a Ph.D. student in <a href='https://ic.kaist.ac.kr'>IC Lab</a> at KAIST.</p>
-<p> My research focuses on observing users' routine behavior reflectiong their mental health. 
-By understanding behavioral patterns and cognitive processes revealed through daily interactions with technology, 
+<p> My research focuses on observing users' routine behavior and supporting users reflecting on their menatal health and routines. 
+By understanding behavioral patterns revealed through daily interactions with technology, 
 I am dedicated to studying how these elements correlate with individuals' mental well-being. </p>
 <p> My goal is to promote mental wellness and encourage positive behavioral changes by implementing practical, technology-based interventions.</p>"
 
