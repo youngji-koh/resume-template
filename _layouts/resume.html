@@ -105,9 +105,11 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.authors }}</h4>
-          <h5 class="resume-item-details">{{ project.publusher }}</h5>
+          <h4 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
+          <h5 class="resume-item-details" itemprop="description">{{ project.authors }}</h5>
+          <p class="resume-item-copy">{{ project.publisher }}</p>
+          <p class="resume-item-copy" itemprop="files">{% if project.url %}<a href="{{ project.url }}" itemprop="url"> [pdf] </a>{% else %} {% endif %}</p>
+         
         </div>
         {% endfor %}
 
