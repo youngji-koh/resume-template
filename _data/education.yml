@@ -1,11 +1,15 @@
 # Degree
+- degree: Ph.D in Computer Science  
+  uni: KAIST
+  year: Sep. 2021 &mdash; Present
+  awards: "Interactive Computing Laboratory (Advisor: Dr. Uichin Lee)"
+  summary: 
+
 - degree: M.S. in Computer Science 
   uni: KAIST
   year: Sep. 2019 &mdash; Aug. 2021
-  awards: 
-    - award: "Software Architecture Laboratory (Advisor: Dr. Sungwon Kang)"
-    - award: Deep learning based bug report summarization using sentence assessment score
-  summary: 
+  awards: "Software Architecture Laboratory (Advisor: Dr. Sungwon Kang)"
+  summary: Deep learning based bug report summarization using sentence assessment score
 
 - degree: B.S. in Computer Science
   uni: Ewha Womans University
