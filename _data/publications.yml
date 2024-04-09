@@ -2,7 +2,8 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- title: jazznotes.io
+- type: conference
+  title: jazznotes.io
   authors: Founder & Primary Developer
   publisher: 2012 &mdash; Present
   url: "#"

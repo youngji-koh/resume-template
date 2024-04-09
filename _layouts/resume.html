@@ -95,26 +95,27 @@
       <!-- end Experience -->
       {% endif %}
 
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
       <section class="content-section">
         <header class="section-header">
           <h2>Publications</h2>
         </header>
 
-        {% for project in site.data.projects %}
+        {% for publication in site.data.publications %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h4 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
-          <h5 class="resume-item-details" itemprop="description">{{ project.authors }}</h5>
-          <p class="resume-item-copy">{{ project.publisher }}</p>
-          <p class="resume-item-copy" itemprop="files">{% if project.url %}<a href="{{ project.url }}" itemprop="url"> [pdf] </a>{% else %} {% endif %}</p>
+          <h3 class="resume-item-title" itemprop="name">{{ publication.type }}</h3>
+          <h4 class="resume-item-title" itemprop="name">{% if publication.url %}<a href="{{ publication.url }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+          <h5 class="resume-item-details" itemprop="description">{{ publication.authors }}</h5>
+          <p class="resume-item-copy">{{ publication.publisher }}</p>
+          <p class="resume-item-copy" itemprop="files">{% if publication.url %}<a href="{{ publication.url }}" itemprop="url"> [pdf] </a>{% else %} {% endif %}</p>
          
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Projects -->
+      <!-- end Publications -->
       {% endif %}
 
 
