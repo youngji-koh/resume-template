@@ -14,8 +14,7 @@
   publisher: ACM Conference on Human Factors in Computing Systems (CHI 2024)
 
 # Journal
-- type: Journal
-  title: Deep Learning-based Bug Report Summarization Using Sentence Significance Factors
+- title: Deep Learning-based Bug Report Summarization Using Sentence Significance Factors
   # url: "#"
   authors: "Jieun Lim*, <strong>Youngji Koh*</strong>, Auk Kim, Uichin Lee (*: equal contribution)"
   publisher: ACM Conference on Human Factors in Computing Systems (CHI 2024)
